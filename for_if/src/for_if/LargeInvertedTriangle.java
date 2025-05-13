@@ -21,7 +21,7 @@ public class LargeInvertedTriangle {
 				for(int i = 0; i <= triangleSize - 1; i++) {
 					String repeatedSpc = triangleSpc.repeat(i);
 					String repeatedStr = triangleStr.repeat(2*(triangleSize - i) - 1);
-					System.out.println(repeatedSpc + repeatedStr + triangleSpc);
+					System.out.println(repeatedSpc + repeatedStr);
 				}
 				break;
 			}else {

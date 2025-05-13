@@ -16,7 +16,7 @@ public class Number {
 	//数字を生成する関数
 	public static void makeNumber(int number, int[] numbers) {
 		for(int i = 0; i < numbers.length; i++) {
-			numbers[i] = (int) (Math.random()*30);
+			numbers[i] = (int) (Math.random()*30 + 1);
 		}
 		//生成した数字の表示
 		System.out.println("生成された数字は、" + intToStr(numbers) + "です。");
