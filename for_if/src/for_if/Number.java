@@ -28,7 +28,9 @@ public class Number {
 			
 			for(int jj = 0; jj < numbers.length-j-1; jj++) {
 				if(numbers[jj] < numbers[jj + 1]) {
+					//小さい方の数字を入れる変数
 					int smallNumber = numbers[jj];
+					//数字を入れ替える
 					numbers[jj] = numbers[jj + 1];
 					numbers[jj + 1] = smallNumber;
 				}
